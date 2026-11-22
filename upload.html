@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Upload a photo — Glam AI</title>
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<p class="preview-banner">Demo with sample faces. No photos are uploaded.</p>
+<div class="wrap">
+<header class="site">
+  <a class="brand" href="index.html">Glam AI</a>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="prices.html">Prices</a>
+    <a href="faq.html">FAQ</a>
+    <a href="upload.html" aria-current="page">Try a sample</a>
+  </nav>
+</header>
+
+<h1>Upload a photo</h1>
+<p>In the live app you would choose a clear photo of your face, or take a selfie, then crop and check it before it's sent.</p>
+<p class="notice-draft">Demo with sample faces. No photos are uploaded. The camera and file picker are off, and there is no way to upload a photo.</p>
+<p class="btn-row">
+  <button class="btn" type="button" disabled>Take a selfie</button>
+  <button class="btn secondary" type="button" disabled>Choose from my phone</button>
+</p>
+<p class="helper">Both actions are disabled in this demo.</p>
+
+<h2>Try a sample face</h2>
+<p>These are code-drawn, synthetic adult faces. They are not real people. Choose one to see a mocked analysis and guide.</p>
+<div class="sample-faces">
+  <a class="sample-face" href="analysis.html" data-sample-face="adult-light">
+    <img src="img/faces/adult-light.png" alt="Synthetic adult sample face, lighter skin. Not a real person.">
+    <span>Sample face 1</span>
+  </a>
+  <a class="sample-face" href="analysis.html" data-sample-face="adult-medium">
+    <img src="img/faces/adult-medium.png" alt="Synthetic adult sample face, medium skin. Not a real person.">
+    <span>Sample face 2</span>
+  </a>
+  <a class="sample-face" href="analysis.html" data-sample-face="adult-deep">
+    <img src="img/faces/adult-deep.png" alt="Synthetic adult sample face, deeper skin. Not a real person.">
+    <span>Sample face 3</span>
+  </a>
+</div>
+
+<h2>For a clearer guide</h2>
+<ul class="photo-tips">
+  <li>One person, facing the camera</li>
+  <li>Even light, and no heavy filter</li>
+  <li>Eyes, brows and lips visible (no sunglasses)</li>
+  <li>A still photo of you, not a screenshot of somebody else</li>
+</ul>
+<p class="helper">A dark, blurry or heavily filtered photo can throw the suggestions off. You can still go ahead, but the guide may be less useful.</p>
+
+<div class="card">
+  <h2>How your photo is used</h2>
+  <p class="notice-draft"><strong>Draft wording. This demo sends no photos anywhere.</strong></p>
+  <p>You choose the photo. Only upload a photo of yourself. Don't upload a photo of anyone else or of a child. You need to be 18 or over.</p>
+  <p>When you continue, your photo is sent to xAI so it can look at visible features and write your analysis and makeup notes. If you have a paid guide, the app draws illustrated looks matched to your colour notes. No AI picture of your face is made. Those illustrated looks are suggestions, not a promise of a result. Paid guides: not available in this demo.</p>
+  <p>We don't sell your photo. We don't share it for marketing.</p>
+  <p>You can delete your account, and any guide in it, in account settings.</p>
+  <p class="helper">In the live app, a consent box is ticked before you continue. Consent boxes are not shown in this demo, and this demo sends no photos anywhere.</p>
+</div>
+
+<h2>If a photo can't be used</h2>
+<p>Some photos can't be used, for example if there is more than one face, or if the image looks like an ID-style photo. The photo isn't used for a guide, and it isn't kept. A guide is not generated.</p>
+<p class="btn-row">
+  <a class="btn secondary" href="refusal-several.html">Example: several faces</a>
+  <a class="btn secondary" href="refusal-id.html">Example: ID-style photo</a>
+</p>
+
+<p class="btn-row">
+  <a class="btn secondary" href="guide.html">View a sample Makeup Guide</a>
+  <a class="btn secondary" href="full-guide.html">View a sample Full Guide</a>
+  <a class="btn secondary" href="guide.html?reopened=1">View a sample saved guide (no photo)</a>
+</p>
+<p class="helper">A saved guide keeps the notes and illustrated looks only. The photo isn't stored with it.</p>
+
+<footer class="footer">
+  <p>Glam AI is an AI makeup guide. Suggestions only. Not medical, skin or dermatology advice.</p>
+  <nav>
+    <a href="faq.html">FAQ</a>
+    <a href="terms.html">Terms</a>
+    <a href="privacy.html">Privacy</a>
+  </nav>
+  <p>Made by Makerman Services (ABN 22 791 780 670).</p>
+  <p>Written with Grok for Makerman Services.</p>
+  <p class="helper">Demo with sample faces. No photos are uploaded.</p>
+</footer>
+</div>
+<script src="js/demo.js"></script>
+</body>
+</html>

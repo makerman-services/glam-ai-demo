@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 320" role="img" aria-label="An illustrated Everyday fresh makeup suggestion, based on the photo you uploaded.">
+  <title>An illustrated Everyday fresh makeup suggestion, based on the photo you uploaded.</title>
+  <rect width="240" height="320" fill="#f3e4df"/>
+  <ellipse cx="120" cy="310" rx="70" ry="18" fill="#e4d0c8"/>
+  <!-- hair -->
+  <path d="M50 130 C48 50 90 28 120 30 C160 28 194 55 190 130 L185 90 C170 40 130 36 120 36 C100 36 70 48 58 95 Z" fill="#3a2a24"/>
+  <!-- neck -->
+  <path d="M96 210 L100 255 Q120 268 140 255 L144 210 Z" fill="#e3b59a"/>
+  <!-- shoulders -->
+  <path d="M40 300 Q60 250 96 255 L144 255 Q180 250 200 300 Z" fill="#d9c3b8"/>
+  <!-- face -->
+  <ellipse cx="120" cy="150" rx="62" ry="78" fill="#e6b89a"/>
+  <!-- cheeks -->
+  <ellipse cx="82" cy="172" rx="16" ry="10" fill="#f0c4b6" opacity=".7"/>
+  <ellipse cx="158" cy="172" rx="16" ry="10" fill="#f0c4b6" opacity=".7"/>
+  <!-- brows -->
+  <path d="M70 118 Q90 108 108 118" fill="none" stroke="#3a2a24" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M132 118 Q150 108 170 118" fill="none" stroke="#3a2a24" stroke-width="3.2" stroke-linecap="round"/>
+  
+  <!-- lids / shadow -->
+  <path d="M72 128 Q90 120 108 130" fill="none" stroke="#c9a07a" stroke-width="6" stroke-linecap="round" opacity=".85"/>
+  <path d="M132 130 Q150 120 168 128" fill="none" stroke="#c9a07a" stroke-width="6" stroke-linecap="round" opacity=".85"/>
+  <!-- liner -->
+  <path d="M74 132 Q90 128 108 134" fill="none" stroke="#5a4038" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M132 134 Q150 128 166 132" fill="none" stroke="#5a4038" stroke-width="1.6" stroke-linecap="round"/>
+  <!-- eyes -->
+  <ellipse cx="90" cy="136" rx="11" ry="7.5" fill="#f8f4ef"/>
+  <ellipse cx="150" cy="136" rx="11" ry="7.5" fill="#f8f4ef"/>
+  <circle cx="91" cy="136" r="5.2" fill="#4a6a52"/>
+  <circle cx="151" cy="136" r="5.2" fill="#4a6a52"/>
+  <circle cx="92.5" cy="134.5" r="1.7" fill="#1c1916"/>
+  <circle cx="152.5" cy="134.5" r="1.7" fill="#1c1916"/>
+  <!-- nose -->
+  <path d="M120 140 L116 168 Q120 174 124 168" fill="none" stroke="#c48b70" stroke-width="2" stroke-linecap="round"/>
+  <!-- lips -->
+  <path d="M100 196 Q120 188 140 196 Q120 210 100 196 Z" fill="#d08a7a"/>
+  <path d="M104 196 Q120 200 136 196" fill="none" stroke="#9a4d4f" stroke-width="1" opacity=".5"/>
+  <!-- drawn-in-code mark -->
+  <text x="120" y="18" text-anchor="middle" font-family="Georgia, serif" font-size="9" fill="#6f6a62">Drawn in code · sample only</text>
+</svg>
